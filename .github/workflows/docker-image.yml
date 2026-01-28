@@ -58,7 +58,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        repository: haiktpm/bestarion-demo-helm-chart
+        repository: haiktpm/bestarion-demo-helm-charts
         token: ${{ secrets.GIT_TOKEN }}
         
     - name: set image tag
